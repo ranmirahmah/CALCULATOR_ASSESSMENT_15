@@ -1,0 +1,113 @@
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 500vh;
+    background-color: black;
+}
+.container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/background.jpg);
+    height: 20%;
+    width: 100%;
+    border-bottom: 0.5rem solid gray;
+    
+}
+span {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+    
+}
+.signin {
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: red;
+    border: none;
+    margin-right: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.textwrapper {
+    text-align: center;
+    margin-top: 3rem;
+}
+h1, h3, h5 {
+    color: white;
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+h5 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.email {
+    margin-top: 0.8rem;
+    
+}
+.input {
+
+    font-size: 1rem;
+    border: 1px solid black;
+}
+#submit {
+    background-color: red;
+}
+.one, .two, .four{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.one h2, .two h2, .three h2, .four h2{
+    color: white;
+}
+.three {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    padding: 5rem 0 5rem 0;
+}
+.five {
+    border-bottom: 2px solid gray;
+}
+.lists {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+a {
+    color: white;
+}
+.buttonE {
+    font-size: 1rem;
+    padding: 4px 20px 4px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: inherit;
+}
+h6 {
+    color: white;
+}
+.Questions, p {
+    border: 1px solid gray;
+    display: grid;
+    color: white;
+}

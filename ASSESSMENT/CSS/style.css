@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 90%;
+    width: 100%;
+    background: #dfc3ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content {
+    height: 70%;
+    width: 20%;
+    background-color: #001e34;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 13rem 1fr;
+    
+
+}
+.below {
+    background-color: #002b4a;
+    border-radius: 0  0 15px 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.above p {
+    color: white;
+    font-size: 3rem;
+    text-align: end;
+    padding-top: 8rem;
+    padding-right: 1rem;
+}
+.one, .two, .three, .four, .five {
+    border: 1px solid #001e34;
+}
+.one, .two, .three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.one1, .one2, .one3, .one4 {
+    border: 1px solid #001e34;
+}
+.two1, .two2, .two3, .two4 {
+    border: 1px solid #001e34;
+}
+.three1, .three2, .three3, .three4 {
+    border: 1px solid #001e34;
+}
+
+.four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.four1, .four2, .four3, .four4 {
+    border: 1px solid #001e34;
+}
+.five {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.five1, .five2, .five3, .five4 {
+    border: 1px solid #001e34;
+}
+.color {
+    color: #2baa3b;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.five4 {
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

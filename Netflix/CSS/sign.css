@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    height: 70%;
+    width: 30%;
+    background-color: black;
+    border-radius: 12px;
+}
+img {
+    height: 5rem;
+    width: 7rem;
+}
+h1, span, p {
+    color: white;
+}
+form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    border-radius: 5px;
+    
+}
+h1 {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+#Email, #password, #button{
+    height: 2.5rem;
+    width: 20rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+#button {
+    background-color: red;
+}
+#Email, #password {
+    background-color: rgb(211, 202, 202);
+}
+span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help {
+    margin-right: 3.5rem;
+}
+.Netflix {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
