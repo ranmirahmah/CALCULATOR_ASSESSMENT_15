@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    padding: 1rem;
+    width: 30rem;
+    border-color: blue;
+}

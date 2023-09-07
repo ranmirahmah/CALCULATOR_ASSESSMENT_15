@@ -8,12 +8,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Images/background.jpg);
 }
 main {
-    height: 70%;
+    /* height: 70%; */
     width: 30%;
     background-color: black;
     border-radius: 12px;
+    padding-bottom: 4rem;
 }
 img {
     height: 5rem;
@@ -36,25 +38,67 @@ h1 {
 }
 #Email, #password, #button{
     height: 2.5rem;
-    width: 20rem;
-    margin-top: 2rem;
+    width: 22rem;
     font-size: 1rem;
 }
 #button {
     background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2rem;
 }
 #Email, #password {
-    background-color: rgb(211, 202, 202);
+    background-color: rgb(41, 37, 37);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding-left: 1rem;
 }
 span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0.5rem;
 }
 .help {
-    margin-right: 3.5rem;
+    margin-right: 2.5rem;
 }
 .Netflix {
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 1.7rem;
 }
+form {
+    margin-left: 1.5rem;
+}
+@media only screen and (max-width:1077px) {
+    .Signin {
+        padding: 0 3rem 0 1rem;
+    }
+    .help {
+        margin-right: 0.5rem;
+    }
+    .Netflix {
+        margin-left: -0.4rem;
+    }
+    h1, header {
+        text-align: left;
+        margin-left: -0.3rem;
+
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    img {
+        width: 6rem;
+        margin-left: -1rem;
+    }
+
+}
+@media only screen and (min-width:1055px){
+    .Signin {
+        width: 50%;
+    }
+}
+

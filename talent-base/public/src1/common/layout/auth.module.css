@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.layoutparent {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.bluebg {
+  background-image: url("../../assets/images/bluebg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* background-color: navy; */
+
+  width: 100%;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+.talentbase {
+  font-weight: bolder;
+  color: grey;
+  font-size: 7rem;
+}
+.TB {
+  color: white;
+}
+
+.home {
+  /* background-color: white; */
+}

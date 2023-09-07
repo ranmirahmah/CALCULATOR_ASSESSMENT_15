@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url(../images/istockphoto-477110708-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: wheat;
+    text-align: center;
+    padding-top: 20rem;
+    /* border: 4px dotted white; */
+    font-size: 7rem;
+    font-style: italic;
+}

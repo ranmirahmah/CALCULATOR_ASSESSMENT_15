@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    
+}
+
+body {
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    height: 70vh;
+    width: 50%;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+    border-radius: 40%;
+}
+button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 40%;
+}
